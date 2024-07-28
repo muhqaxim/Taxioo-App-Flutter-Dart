@@ -1,0 +1,56 @@
+name: taxioo
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.0-282.3.beta <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+
+  # External Packages Starts from here 
+  
+  
+  # for State management
+  get: ^4.6.6
+  # for All screen devices
+  flutter_screenutil: ^5.9.0
+  # for flutter native splash 
+  flutter_native_splash: ^2.4.0
+  # for onBoarding Screens
+  smooth_page_indicator: ^1.1.0
+  # 
+  lottie: ^3.1.0
+  # firebase auth
+  firebase_auth: ^4.19.1
+  firebase_core: ^2.29.0
+  # Country codes picker for phone numbers
+  country_code_picker: ^3.0.0
+ 
+  # SignUp methods
+  google_sign_in: ^6.2.1
+  flutter_facebook_auth: ^6.2.0
+  sign_in_with_apple: ^6.1.0
+  google_nav_bar: ^5.0.6
+  # 
+
+# for Google fonts
+  google_fonts: ^6.2.1
+  url_launcher: ^6.0.0
+  google_maps_flutter: ^2.6.1
+  flutter_typeahead: ^5.2.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+   - lib/assets/

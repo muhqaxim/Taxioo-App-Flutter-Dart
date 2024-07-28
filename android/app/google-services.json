@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "815277828366",
+    "project_id": "taxioo",
+    "storage_bucket": "taxioo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815277828366:android:b9bc0dc426a02889868f5f",
+        "android_client_info": {
+          "package_name": "com.example.taxioo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJVDc7Qm6XZxh5Nqu0BXPexy9AxlhAEic"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
